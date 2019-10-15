@@ -3,8 +3,26 @@ $orange: #d97834
 $gray: #cccccc
 
 // General styles
+*
+  margin: 0
+  padding: 0
+  outline: none
 .shadow
   -webkit-box-shadow: 0px 0px 49px 8px rgba(99,99,99,1)
   -moz-box-shadow: 0px 0px 49px 8px rgba(99,99,99,1)
   box-shadow: 0px 0px 49px 8px rgba(99,99,99,1)
 
+.nav
+  background-color: #000000
+  height: 72px
+  .logo
+    align-self: center
+    img 
+      height: 27px
+  .navbar
+    justify-content: flex-end
+    
+    &-item
+      list-style: none
+      padding-left: 25px
+      
